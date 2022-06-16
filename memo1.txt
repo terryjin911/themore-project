@@ -1,0 +1,32 @@
+https://tidyjs.tistory.com/8
+2017년도 블로그글
+
+
+이 코드에서 max numarr랑 min numarr에서 뽑아온 값을
+최종적으로 덧셈해서 출력으로 보여주면 되지않아?
+
+<script>
+var numarr = []
+var max = 0;
+var min = 0;
+
+for(1=0; i<5; i++){
+    numarr[i] = parseInt(prompt((i+1)+'번째 숫자를 입력하세요'));
+}
+
+for(i=0; i<5; i++){
+    if(numarr[i]>max){
+        max = numarr[i]
+    }
+} //최대값을 max에 담기
+
+min = numarr[0];
+for(i=0; i<5; i++){
+    if(numarr[i]<min){
+        min = numarr{i}
+    }
+} //최소값을 min에 담기
+
+document.write('웅니가 입력한 수 중 최대값은'+max+'입니당<br>');
+document.write('웅니가 입력한 수 중 최소값은'+min+'입니당');
+</script>

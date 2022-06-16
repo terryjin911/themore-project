@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>더모아 오구구 계산기</title>
+</head>
+
+
+<body>
+    <script>
+        function add(){
+            console.log("여기까지실행-1");
+            const price = document.querySelector("#price").value;
+            
+            let resultDiv = document.querySelector("#showAdd");
+            console.log("여기까지실행-2");
+            `${price}입니다`;
+        }
+    </script>
+
+
+
+    <div>
+        <input type="text" id="price"> 원
+        <button onclick="add();">추가하기</button>
+    </div>
+    <div>
+        입력받은 값:<div id="showAdd"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div>
+        <button>돌려보자</button>
+    </div>
+    <div>
+        <b>결과:</b>
+        <!-- 최대값: 4000 3000 2000 -->
+        <!-- 최소값: 900 1200 2400 -->
+    </div>
+</body>
+</html>
